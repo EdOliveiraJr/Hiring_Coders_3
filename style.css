@@ -1,0 +1,66 @@
+#cabecalho {
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(80, 59, 59);
+    color: antiquewhite;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#menu {
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu div {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu a:hover{
+    background-color: blueviolet;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#imagemGeral img {
+    padding: 15px;
+}
+
+#nossosDestaques {
+    text-align: center;
+    padding: 50px;
+}
+
+#produtos div{
+    width: 450px;
+    display: inline-block;
+    margin: 25px;
+}
+
+.produtoDestaque {
+    display: flex;
+}
+
+#rodape div{
+    display: inline-block;
+}
+
+#redesSociais div {
+    display: inline-block;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
